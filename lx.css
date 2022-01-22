@@ -56,6 +56,28 @@
 
 body { background-color: var(--ii); }
 
+ /* Figure this out tomorrow; the sidebar links don't resize properly
+.sidebar {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 40vh;
+  width: 40vl;
+}
+
+.sidebar a {
+  background-image: linear-gradient(#004953, #23666B);
+  color: var(--i);
+  font-weight: 800;
+  text-align: right;
+  font-variant-caps: small-caps;
+  font-size: 40px;
+  padding: 10px 10px 10px 200px;
+  text-decoration: none;
+}
+*/
+
 h1 {
   color: var(--i);
   text-align: center;
