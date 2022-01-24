@@ -7,6 +7,7 @@
   --v: #468483;
   --vi: #23666B;
   --vii: #004953;
+
 }
 /* Gradients
   --gd0: linear-gradient(#004953, #23666B);
@@ -15,11 +16,7 @@
   --gl1: linear-gradient(#468483, #23666B);
 */
 
-/* Inter font */
-@font-face {
- font-family: InterV;
- src: url(Inter.var.woff2);
-}
+
 
 html {
   background: url('pine3.png') no-repeat center center fixed;
@@ -27,6 +24,12 @@ html {
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
+
+          /* Inter font */
+          @font-face {
+           font-family: InterV;
+           src: url(Inter.var.woff2);
+          }
 }
 
 .corner {
