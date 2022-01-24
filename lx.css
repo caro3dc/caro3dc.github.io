@@ -21,8 +21,13 @@
  src: url(Inter.var.woff2);
 }
 
-body { background-image: url(pine3.png);  background-size: 100%;
- background-repeat: no-repeat; filter: }
+html {
+  background: url('pine3.png') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+}
 
 .corner {
   width: 7.5vw;
@@ -72,7 +77,7 @@ body { background-image: url(pine3.png);  background-size: 100%;
   margin: 0px 0px;
 }
 
-.sidebar a {
+.sidebar sr {
   display: block;
   background-image: linear-gradient(#004953, #23666B);
   color: var(--i);
@@ -92,6 +97,15 @@ h1 {
   font-size: 2.33vw;
   display: block;
   margin: 0px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h2 {
+  color: var(--vi);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.67vw;
 }
 
 .hu {
@@ -112,6 +126,33 @@ h1 {
   color: var(--vii);
 }
 
-.hidden {
+
+#outline {
   display: none;
+}
+
+#promo {
+  display: none;
+}
+
+#about {
+  display: none;
+}
+
+#info {
+  display: none;
+}
+
+table tr th {
+border: 1px solid var(--ii);
+padding: 10px 10px;
+font-weight: 450;
+}
+
+.t-head {
+  border: 1px solid var(--vii);
+  background-image: linear-gradient(#004953, #23666B); /* --gd0 */
+  font-size: 1.67vw;
+  color: var(--i);
+  font-weight: 900;
 }
