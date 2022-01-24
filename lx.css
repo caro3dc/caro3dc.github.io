@@ -15,6 +15,12 @@
   --gl1: linear-gradient(#468483, #23666B);
 */
 
+/* Inter font */
+@font-face {
+ font-family: InterV;
+ src: url(Inter.var.woff2);
+}
+
 body { background-image: url(pine3.png);  background-size: 100%;
  background-repeat: no-repeat; filter: }
 
