@@ -64,7 +64,6 @@ body { background-image: url(pine3.png);  background-size: 100%;
 
 .tea { font: Inter 2em serif; font-weight: 900; fill: var(--i); }
 
- /* Figure this out tomorrow; the sidebar links don't resize properly */
 .sidebar {
   position: absolute;
   top: 50%;
