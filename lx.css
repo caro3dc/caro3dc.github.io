@@ -15,11 +15,14 @@
   --gl1: linear-gradient(#468483, #23666B);
 */
 
+body { background-image: url(pine3.png);  background-size: 100%;
+ background-repeat: no-repeat; filter: }
+
 .corner {
-  width: 8%;
+  width: 7.5vw;
 }
 
-.bl{
+.bl {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -31,13 +34,13 @@
   right: 0;
 }
 
-.tr{
+.tr {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.tl{
+.tl {
   position: absolute;
   top: 0;
   left: 0;
@@ -45,42 +48,65 @@
 
 .box {
   position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 15%;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.top { top: 0; }
-.bottom { bottom: 0; }
+.top { top: 0; height: 7.5vw; }
+.bottom { bottom: 0; height: 7.5vw; }
 
-body { background-color: var(--ii); }
+.tea { font: Inter 2em serif; font-weight: 900; fill: var(--i); }
 
- /* Figure this out tomorrow; the sidebar links don't resize properly
+ /* Figure this out tomorrow; the sidebar links don't resize properly */
 .sidebar {
   position: absolute;
   top: 50%;
-  left: 0;
   transform: translateY(-50%);
-  height: 40vh;
-  width: 40vl;
+  left: 0;
+  margin: 0px 0px;
 }
 
 .sidebar a {
+  display: block;
   background-image: linear-gradient(#004953, #23666B);
   color: var(--i);
   font-weight: 800;
   text-align: right;
-  font-variant-caps: small-caps;
-  font-size: 40px;
-  padding: 10px 10px 10px 200px;
+  text-transform: uppercase;
+  font-size: 2.33vw;
+  padding: 22px 22px 22px 4vw;
   text-decoration: none;
 }
-*/
 
 h1 {
   color: var(--i);
   text-align: center;
   background-image: linear-gradient(#004953, #23666B); /* --gd0 */
+  padding: 22px 16px;
+  font-size: 2.33vw;
+  display: block;
+  margin: 0px;
+}
+
+.hu {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+  margin: 0px;
+  width: 50%;
+}
+
+.cu {
+  background-color: var(--i);
   padding: 16px 16px;
+  text-align: center;
+  margin: 0px;
+  font-size: 1.33vw;
+  color: var(--vii);
+}
+
+.hidden {
+  display: none;
 }
