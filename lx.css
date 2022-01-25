@@ -16,6 +16,10 @@
   --gl1: linear-gradient(#468483, #23666B);
 */
 
+@font-face {
+ font-family: InterV;
+ src: url('Inter.var.woff2');
+}
 
 
 html {
@@ -24,12 +28,6 @@ html {
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-
-          /* Inter font */
-          @font-face {
-           font-family: InterV;
-           src: url(Inter.var.woff2);
-          }
 }
 
 .corner {
