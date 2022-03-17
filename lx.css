@@ -85,11 +85,22 @@ html {
   display: block;
   background-image: linear-gradient(#004953, #23666B);
   color: var(--i);
-  font-variation-settings: 'wght' 800;
+  font-variation-settings: 'wght' 900;
   text-align: right;
   text-transform: uppercase;
-  font-size: 2.33vw;
-  padding: 22px 22px 22px 4vw;
+  font-size: 2vw;
+  padding: 18px 18px 18px 5vw;
+  text-decoration: none;
+}
+
+xr {
+  background-image: linear-gradient(#23666B, #468483);
+  color: var(--i);
+  font-variation-settings: 'wght' 900;
+  width: 30%;
+  text-align: center;
+  font-size: 2vw;
+  padding: 18px;
   text-decoration: none;
 }
 
@@ -106,8 +117,8 @@ h1 {
 }
 
 h2 {
-  color: var(--vi);
-  font-weight: 700;
+  color: var(--vii);
+  font-variation-settings: 'wght' 550;
   text-align: center;
   font-size: 1.67vw;
 }
@@ -115,10 +126,10 @@ h2 {
 .hu {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 30%;
   transform: translateY(-50%);
   margin: 0px;
-  width: 50%;
+  width: 60%;
 }
 
 .cu {
@@ -131,19 +142,11 @@ h2 {
 }
 
 
-#outline {
+#outline, #promo, #about, #info {
   display: none;
 }
 
-#promo {
-  display: none;
-}
-
-#about {
-  display: none;
-}
-
-#info {
+#abst, #up, #down, #down2, #auld, #auld2, #vweg, #ind {
   display: none;
 }
 
