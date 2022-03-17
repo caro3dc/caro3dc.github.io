@@ -17,7 +17,7 @@
 */
 
 @font-face {
- font-family: InterV;
+ font-family: Inter;
  src: url('Inter.var.woff2');
 }
 
@@ -28,6 +28,7 @@ html {
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
+  font-family: Inter;
 }
 
 .corner {
