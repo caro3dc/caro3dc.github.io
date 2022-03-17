@@ -18,7 +18,7 @@
 
 @font-face {
  font-family: Inter;
- src: url('Inter.var.woff2');
+ src: url('Inter.ttf');
 }
 
 
@@ -28,7 +28,9 @@ html {
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-  font-family: Inter;
+  font-family: Inter, Helvetica, Roboto, Arial, sans-serif;
+  font-variation-settings: 'wght' 450;
+  font-feature-settings: 'cpsp', 'case', 'ccmp', 'cv01', 'cv02', 'cv03', 'cv04', 'cv06', 'cv07', 'cv05', 'cv10', 'calt', 'ccmp', 'kern' !important
 }
 
 .corner {
@@ -69,7 +71,7 @@ html {
 .top { top: 0; height: 7.5vw; }
 .bottom { bottom: 0; height: 7.5vw; }
 
-.tea { font: Inter 2em serif; font-weight: 900; fill: var(--i); }
+.tea { font: Inter 2em serif; font-variation-settings: 'wght' 900; fill: var(--i); }
 
 .sidebar {
   position: absolute;
@@ -83,7 +85,7 @@ html {
   display: block;
   background-image: linear-gradient(#004953, #23666B);
   color: var(--i);
-  font-weight: 800;
+  font-variation-settings: 'wght' 800;
   text-align: right;
   text-transform: uppercase;
   font-size: 2.33vw;
@@ -100,7 +102,7 @@ h1 {
   display: block;
   margin: 0px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-variation-settings: 'wght' 800;
 }
 
 h2 {
@@ -148,7 +150,7 @@ h2 {
 table tr th {
 border: 1px solid var(--ii);
 padding: 10px 10px;
-font-weight: 450;
+font-variation-settings: 'wght' 400;
 }
 
 .t-head {
@@ -156,5 +158,5 @@ font-weight: 450;
   background-image: linear-gradient(#004953, #23666B); /* --gd0 */
   font-size: 1.67vw;
   color: var(--i);
-  font-weight: 900;
+  font-variation-settings: 'wght' 900;
 }
