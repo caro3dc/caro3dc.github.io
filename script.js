@@ -47,6 +47,7 @@ function anho() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -59,6 +60,7 @@ function abst() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -71,6 +73,7 @@ function up() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -83,6 +86,7 @@ function down() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -95,6 +99,7 @@ function down2() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -107,6 +112,7 @@ function auld() {
   document.getElementById("auld").style.display = "inline";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -119,6 +125,7 @@ function auld2() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "inline";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -131,6 +138,20 @@ function vweg() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "inline";
+  document.getElementById("vweg2").style.display = "none";
+  document.getElementById("ind").style.display = "none";
+}
+
+function vweg2() {
+  document.getElementById("anho").style.display = "none";
+  document.getElementById("abst").style.display = "none";
+  document.getElementById("up").style.display = "none";
+  document.getElementById("down").style.display = "none";
+  document.getElementById("down2").style.display = "none";
+  document.getElementById("auld").style.display = "none";
+  document.getElementById("auld2").style.display = "none";
+  document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "inline";
   document.getElementById("ind").style.display = "none";
 }
 
@@ -143,5 +164,6 @@ function ind() {
   document.getElementById("auld").style.display = "none";
   document.getElementById("auld2").style.display = "none";
   document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "inline";
 }
