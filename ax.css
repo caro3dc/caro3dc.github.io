@@ -136,10 +136,6 @@ h2 {
   font-size: 1.67vw;
 }
 
-h2:hover {
-  text-shadow: 0px 0px 8px var(--iii);
-}
-
 .hu {
   position: absolute;
   top: 50%;
@@ -167,7 +163,7 @@ p {
   display: none;
 }
 
-#abst, #up, #down, #down2, #auld, #auld2, #vweg, #vweg2, #ind {
+#abst, #up, #down, #down2, #auld, #auld2, #vweg, #vweg2, #ind, #baxo {
   display: none;
 }
 
@@ -203,3 +199,14 @@ b { font-variation-settings: 'wght' 550; }
 b:hover {
   text-shadow: 0px 0px 8px var(--iii);
 }
+
+.blorbo {
+  text-align: center;
+  padding: 8px 8px;
+  color: var(--v) !important;
+  border: 2px dashed var(--ii);
+  font-variation-settings: 'wght' 550;
+}
+
+.blorbo a { color: var(--v) !important; text-decoration: none; }
+.blorbo a:hover { text-shadow: 0px 0px 8px var(--ii); }

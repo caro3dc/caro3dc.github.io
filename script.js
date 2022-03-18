@@ -49,6 +49,7 @@ function anho() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function abst() {
@@ -62,6 +63,7 @@ function abst() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function up() {
@@ -75,6 +77,7 @@ function up() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function down() {
@@ -88,6 +91,7 @@ function down() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function down2() {
@@ -101,6 +105,7 @@ function down2() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function auld() {
@@ -114,6 +119,7 @@ function auld() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function auld2() {
@@ -127,6 +133,7 @@ function auld2() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function vweg() {
@@ -140,6 +147,7 @@ function vweg() {
   document.getElementById("vweg").style.display = "inline";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function vweg2() {
@@ -153,6 +161,7 @@ function vweg2() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "inline";
   document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "none";
 }
 
 function ind() {
@@ -166,4 +175,19 @@ function ind() {
   document.getElementById("vweg").style.display = "none";
   document.getElementById("vweg2").style.display = "none";
   document.getElementById("ind").style.display = "inline";
+  document.getElementById("baxo").style.display = "none";
+}
+
+function baxo() {
+  document.getElementById("anho").style.display = "none";
+  document.getElementById("abst").style.display = "none";
+  document.getElementById("up").style.display = "none";
+  document.getElementById("down").style.display = "none";
+  document.getElementById("down2").style.display = "none";
+  document.getElementById("auld").style.display = "none";
+  document.getElementById("auld2").style.display = "none";
+  document.getElementById("vweg").style.display = "none";
+  document.getElementById("vweg2").style.display = "none";
+  document.getElementById("ind").style.display = "none";
+  document.getElementById("baxo").style.display = "inline";
 }
