@@ -1,19 +1,19 @@
 :root {
   /* Colours from lightest to darkest */
-  --i: #D2F9E3;
-  --ii: #AFDCCB;
-  --iii: #8CBEB3;
-  --iv: #69A19B;
-  --v: #468483;
-  --vi: #23666B;
-  --vii: #004953;
+  --i: #D1EFFA;
+  --ii: #AAC8DF;
+  --iii: #869EC6;
+  --iv: #5E73AB;
+  --v: #3F4D8D;
+  --vi: #1F2970;
+  --vii: #000452;
 
 }
 /* Gradients
-  --gd0: linear-gradient(#004953, #23666B);
-  --gd1: linear-gradient(#23666B, #004953);
-  --gl0: linear-gradient(#23666B, #468483);
-  --gl1: linear-gradient(#468483, #23666B);
+  --gd0: linear-gradient(#000452, #1F2970);
+  --gd1: linear-gradient(#1F2970, #000452);
+  --gl0: linear-gradient(#1F2970, #3F4D8D);
+  --gl1: linear-gradient(#3F4D8D, #1F2970);
 */
 
 @font-face {
@@ -23,7 +23,7 @@
 
 
 html {
-  background: url('pine3.png') no-repeat center center fixed;
+  background: url('pine5.png') no-repeat center center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -83,7 +83,7 @@ html {
 
 .sidebar sr {
   display: block;
-  background-image: linear-gradient(#004953, #23666B);
+  background-image: linear-gradient(#000452, #1f2970);
   color: var(--i);
   font-variation-settings: 'wght' 900;
   text-align: right;
@@ -97,8 +97,9 @@ html {
   text-shadow: 0px 0px 16px var(--iii);
 }
 
+
 xr {
-  background-image: linear-gradient(#23666B, #468483);
+  background-image: linear-gradient(#1f2970, #3f4d8d);
   color: var(--i);
   font-variation-settings: 'wght' 900;
   width: 30%;
@@ -115,7 +116,7 @@ xr:hover {
 h1 {
   color: var(--i);
   text-align: center;
-  background-image: linear-gradient(#004953, #23666B); /* --gd0 */
+  background-image: linear-gradient(#000452, #1f2970); /* --gd0 */
   padding: 22px 16px;
   font-size: 2.33vw;
   display: block;
@@ -158,11 +159,11 @@ p {
 }
 
 
-#outline, #promo, #sapaw, #about, #info {
+#outline, #promo, #about, #info {
   display: none;
 }
 
-#abst, #up, #down, #down2, #auld, #auld2, #vweg, #ind {
+#abst, #up, #down, #down2, #auld, #auld2, #vweg, #vweg2, #ind, #baxo {
   display: none;
 }
 
@@ -175,7 +176,7 @@ text-align: center;
 
 .t-head {
   border: 1px solid var(--vii);
-  background-image: linear-gradient(#004953, #23666B); /* --gd0 */
+  background-image: linear-gradient(#000452, #1f2970); /* --gd0 */
   font-size: 1.67vw;
   color: var(--i);
   font-variation-settings: 'wght' 900;
@@ -183,10 +184,10 @@ text-align: center;
 
 .caption {
   font-size: 1vw;
-  color: var(--v) !important;
+  color: var(--iv) !important;
   text-align: center;
   border: 2px dashed var(--iv);
-  padding: 0px 8px;
+  padding: 8px 8px;
 }
 
 .caption a:hover {
@@ -198,3 +199,14 @@ b { font-variation-settings: 'wght' 550; }
 b:hover {
   text-shadow: 0px 0px 8px var(--iii);
 }
+
+.blorbo {
+  text-align: center;
+  padding: 8px 8px;
+  color: var(--v) !important;
+  border: 2px dashed var(--ii);
+  font-variation-settings: 'wght' 550;
+}
+
+.blorbo a { color: var(--v) !important; text-decoration: none; }
+.blorbo a:hover { text-shadow: 0px 0px 8px var(--ii); }
